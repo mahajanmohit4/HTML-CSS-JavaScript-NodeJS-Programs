@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Practice</title>
+
+    <style>
+
+        .grid {
+            display: grid;
+           grid: 140;
+            grid-gap: 1rem;
+           
+        grid-template-areas: 
+        }
+
+       
+        
+
+        .item {
+            display: block;
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            border: 2px solid black;
+            padding: 12px 23px;
+            grid-template-row: auto;
+
+        }
+        #headerid{
+                    grid-area: navbar;
+                    border: 2px solid black;
+                   
+        }
+        .header{
+            display: grid;
+        }
+    </style>
+</head>
+
+<body>   
+    <header class="header" id="headerid">Items product</header>
+    <div class="grid">
+        <div id="first" class="item">first</div>
+        <div id="second" class="item">second</div>
+        <div id="third" class="item">third</div>
+        <div id="forth" class="item">forth</div>
+        <div id="five" class="item">five</div>
+    </div>
+
+</body>
+
+</html>
