@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="4.js"></script>
+</head>
+<body>
+    <div> like and comment here</div>
+    <div>
+        <input type="text" id="inputid" placeholder="comment here">
+    </div>
+    <div>
+        <button id="likeid" style="margin:20px ; background: black; color:red; padding:5px;"
+         onclick=Handlelikes()>Like </button>
+
+        <button id="commentid" onclick="Handlecomments()"> Comments here</button>
+    </div>
+    <div id="commentbox">
+        <div id="ref" style="display:flex; justify-content: space-between; 
+        visibility:hidden;margin:4px;">
+          <div>Hard coded comments</div>
+          <button>Delete</button>
+        </div>
+    </div>
+</body>
+</html>

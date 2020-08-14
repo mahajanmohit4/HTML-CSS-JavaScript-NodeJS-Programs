@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onmouseover and out</title>
+    <script src="2.js"> </script>
+      <style>
+          .arrange{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height:100vh;
+          }
+          .main{
+            font-size: 50px;
+            background: palevioletred;
+
+          }
+          
+      </style>
+</head>
+<body>
+    <div id="id1" class="arrange"> 
+        <div id="id2" class="main" onmouseover="HandleOver()" 
+        onmouseout="Handleuot()">Hello world</div>
+    </div>
+</body>
+</html>
