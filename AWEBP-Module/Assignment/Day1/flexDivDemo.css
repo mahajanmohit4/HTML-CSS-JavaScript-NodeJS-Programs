@@ -1,0 +1,38 @@
+#i1{
+   
+    color:blue;
+    background-color: yellow;
+    
+}
+.c1{
+    display:flex;
+    justify-content: center;
+     align-items: center;
+      height:50vh;
+      font-size: 30px;
+}
+#i2{
+    
+    color:red;
+    background-color:purple;
+}
+#i3{
+    background-color:rgb(230, 98, 98);
+    display:flex;
+    justify-content:space-around;
+    align-content:center;
+   
+    
+}
+
+#i4{
+    background-color:rgb(101, 93, 212);
+    display:flex;
+    justify-content:flex-start;
+    align-content:flex-end;
+    flex:1px;
+}
+
+body{
+    margin:0px;
+}
