@@ -1,0 +1,17 @@
+.a1{
+    display: flex;
+    border: 2px solid black;
+    justify-content: center;
+    height: 14vh;
+}
+.black{
+    display: flex;
+    flex: 4px;
+    background:black;
+}
+.white{
+    display:flex;
+    flex:4px;
+    background:white;
+    
+}

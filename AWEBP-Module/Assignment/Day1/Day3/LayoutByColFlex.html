@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main{
+            display:flex;
+            flex-direction: column; 
+            height:100vh;
+        }
+        #hdr{
+             display: flex;
+             background: yellow;
+             font: 10px;
+             flex: 1;
+             justify-content: center;
+             
+        }
+        #ftr{
+            display: flex;
+            background:pink;
+             font: 10px;
+             flex: 1; 
+             justify-content: center;
+             align-items: center;
+        }
+        #mid{
+               display:flex;
+               background: purple;
+               flex:10;
+               justify-content: space-between;
+             }
+        #m1{
+            display: flex;;
+            flex:1;
+            background: red;
+
+        }
+        #m2{
+            display: flex;;
+            flex:5;
+            background:rgb(218, 37, 37);
+        }
+        #m3{
+            display: flex;
+            flex:1;
+            background:orange;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+    <div id="hdr">header</div>
+    <div id="mid">
+        <div id="m1"> L</div>
+        <div id="m2">Main</div>
+        <div id="m3">R</div>
+
+    </div>
+    <div id="ftr">Footer</div>
+    </div>
+</body>
+</html>

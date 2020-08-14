@@ -1,0 +1,52 @@
+body{
+    margin: 0px;
+    /*background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)), 
+    url(friuts.jpg);*/
+    background-image:url(friuts.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#p1{
+    background-color: black;
+    display:flex;
+    height:12vh;
+   
+}
+#pc1{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex:1px;
+}
+#c1
+{
+    color:white;
+    font-size:20px;
+    margin-left: 20px;
+    flex:1px;/* means one column place is taken */
+}
+#pc2{
+    display:flex;
+    justify-content: flex-end;
+    align-items:center;
+    flex:2px;/* means two column place is taken */
+
+}
+#c2{
+    color:white;
+    font-size:20px;
+    display:flex;
+    flex:1px;
+    justify-content:space-around;
+    
+}
+.border{
+    border:1px solid red;
+    /*border-color: red;*/
+    background-color:rgba(17, 17, 192, 0.842);
+
+
+
+}
