@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title> login and registration form</title>
+  <link rel="stylesheet" href="loginSystem1.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" media="screen and (max-width: 1170px)" href="phone.css">
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+  <div class="hero">
+    <div class="form-box">
+      <div class="button-box">
+        <div id="btn"></div>
+        <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+        <button type="button" class="toggle-btn" onclick="register()">Register</button>
+      </div>
+      <div class="social-icons">
+
+        <p>
+          <a href="https://en-gb.facebook.com/login/">
+            <img src="fb.PNG">
+          </a>
+          <a
+            href="https://accounts.google.com/signin/v2/identifier?service=CPanel&flowName=GlifWebSignIn&flowEntry=ServiceLogin">
+            <img src="gp.PNG">
+          </a>
+          <a href="https://twitter.com/hashtag/login?lang=en">
+            <img src="tw.PNG">
+          </a>
+        </p>
+
+      </div>
+
+
+
+      <form id="login" name="RegForm" class="input-group" onsubmit="return validation()">
+        <input type="text" class="input-field" placeholder="User-Id" name="UserID" >
+        <input type="password" class="input-field" placeholder="Enter Password" name="Password" >
+        <input type="checkbox" class="chech-box"> <span> Remember Me</span> 
+        <input type="checkbox" class="chech-box" > <span> Keep Me SignedIn </span>
+        <button type="submit" class="submit-btn" name="submit">Log in</button>
+      </form>
+
+      <form id="register" class="input-group">
+        <input type="text" class="input-field" placeholder="User-Id" required>
+        <input type="email" class="input-field" placeholder="Email-id" required>
+        <input type="text" class="input-field" placeholder="Enter Password" required>
+        <input type="checkbox" class="chech-box"> <span> I agree to the terms & conditions</span>
+        <button type="submit" class="submit-btn">Register</button>
+      </form>
+
+
+    </div>
+  </div>
+
+  <script>
+    var x = document.getElementById("login");
+    var y = document.getElementById("register");
+    var z = document.getElementById("btn");
+
+    function register() {
+      x.style.left = "-400px";
+      y.style.left = "50px";
+      z.style.left = "110px";
+    }
+
+    function login() {
+      x.style.left = "50px";
+      y.style.left = "450px";
+      z.style.left = "0px";
+    }
+
+    function validation() {
+      var userid = document.forms["RegForm"]["UserID"];
+      var password = document.forms["RegForm"]["Password"];
+
+      if (userid.value == "" ||  userid.value >12 ) {
+        window.alert("Please enter your name.");
+        name.focus();
+        return false;
+      }
+
+
+      if (password.value == "") {
+        window.alert("Please enter your password");
+        password.focus();
+        return false;
+      }
+
+    }
+
+  </script>
+
+
+</body>
+
+
+</html>

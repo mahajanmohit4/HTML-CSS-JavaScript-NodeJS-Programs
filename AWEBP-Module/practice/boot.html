@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: 2px solid red;
+            height: 80vh;
+        }
+        .box-1{
+            border: 2px solid red;
+            height: 10vh;
+            display: flex;
+        }
+        li{
+            display: flex;
+            flex: 1;
+        }
+        .btn{
+            /* height: 40vh; */
+            /* display: flex; */
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box-1">
+
+            <!-- <ul style="list-style-type: none; display: flex; flex-direction: row;">
+                <li>Home </li>
+                <li>about us</li>
+                <li>signin</li>
+            </ul> -->
+            <div style=" display: flex; flex: 1; justify-content: center; align-items: center;">Home</div>
+            <div style="display: flex; flex: 1; justify-content: center; align-items: center;">about us</div>
+            <div style="display: flex; flex: 1; justify-content: center; align-items: center;">signin</div>
+
+        </div>
+
+    <button class="btn" id="btn-1" onclick="Like()">Like</button>
+        <button class="btn" id="btn-2" onclick="Dislike()">Dislike</button>
+    </div>
+
+    <script>
+        let Likecounter = 0;
+        function Like(){
+            let like = document.querySelector("#btn-1");
+            Likecounter++;
+            like.innerHTML = "Like-" + Likecounter;
+        }
+        let Dislikecounter = 0;
+        function Dislike(){
+            let dislike = document.querySelector("#btn-2");
+            Dislikecounter++;
+            dislike.innerHTML = "Dislike-" + Dislikecounter;
+        }
+    </script>
+</body>
+</html>

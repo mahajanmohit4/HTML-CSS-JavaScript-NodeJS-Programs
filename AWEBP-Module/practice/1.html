@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <style>
+        html,
+        body {
+            margin: 0px;
+        }
+
+        #first {
+            background: red;
+            display: flex;
+            height: 50vh;
+            /* flex-direction: column; */
+        }
+
+        #second {
+            display: flex;
+            flex: 1;
+            border: 4px solid black;
+            /* background: yellow;
+            background: url(cuba.jpg);
+            background: no-repeat;
+            background-position: center;
+            background-size: cover; */
+            justify-content: center;
+            align-items: center;
+            background-color: yellow
+        }
+
+        #second,
+        img {
+            width: 100%;
+            height: 50vh;
+            object-fit: cover;
+        }
+
+        #third {
+            display: flex;
+            flex: 2;
+            border: 4px solid black;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="display: flex; height: 100vh; flex-direction: column;">
+        <div id="first">
+            <div id="second">
+
+                <img src="cuba.jpg" alt="">
+            </div>
+            <div id="third">
+                <div style="font-size: 32px; font-weight: bold; font-family: cursive;">MOHIT MAHAJAN</div>
+                <div style="font-size: 18px; font-weight: bold; font-family: cursive;">FULL STACK DEVELOPER</div>
+            </div>
+
+        </div>
+
+        <div id="first">
+            <div id="second">
+
+                <img src="cuba.jpg" alt="">
+            </div>
+            <div id="third">
+                <div style="font-size: 32px; font-weight: bold; font-family: cursive;">MOHIT MAHAJAN</div>
+                <div style="font-size: 18px; font-weight: bold; font-family: cursive;">FULL STACK DEVELOPER</div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
