@@ -1,0 +1,90 @@
+color: yellow;  // text color
+background: rgba(74, 138, 211, 1); // bg color
+border: 5px solid red;
+border-radius: 16px;
+<div style="border: 5px solid red;">Border Styling</div>
+
+ border-radius: 16px; // curve the BORDER
+
+****************** MARGINE & PADDING ***************
+	margin-right: 2px;
+	margin: top-bottom-left-right;
+	padding: top-bottom-left-right;
+	padding: 8px;
+
+************* Second Program - Text Styling CSS Property  *****
+
+  	color: royalblue; 
+	font-size: 48px; 
+	font-weight: bold; 
+	font-family: cursive;"
+
+************* Non Blocking Element ******************
+ 	<span style="background: tomato;">
+      	Non Blocking Element :: Line 1
+
+************ Blocking Element *******************
+  	<div style="background: tomato;">
+        Flex Box - Blocking Element 2 Non Blocking :: Child 1
+     	</div>
+
+<address> 	<article>	<aside>	 <blockquote>	<canvas>	<dd>
+<div>	<dl>	<dt>	<fieldset>	<h1>-<h6> <li>  <main>  <nav>
+<figcaption>	<figure>	<footer>	<form>    <header>   <hr>
+<noscript>  <ol>  <p>  <pre>   <section>  <table>  <tfoot>  <ul>  <video>
+
+**********  Inline Element   *******************************
+
+<a><abbr><acronym><b><bdo><big><br><button><cite><code><dfn><em><i><img>
+<input><kbd><label><map><object><output><q><samp><script><select><small>
+<span><strong><sub><sup><textarea><time><tt><var>
+
+
+********************************************************************************************
+
+*************** FLEX ***************************
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	background: royalblue; 
+	height: 55px;
+	
+	justify-content: flex-end;
+	flex: 1;   // used for the ratio perpose
+	** justify-content: space-between; // DOUBT
+
+		** FLEX DIRECTION **
+		  flex-direction: column;
+		  flex-direction: row;
+
+************************************************************************************************
+
+***************** IMAGES ***************************
+<img src="https://picsum.photos/id/237/600/300" alt="" style="width: 100%; object-fit: cover;" 
+
+***************** BAGROUND IMAGE *******************
+     /* background: url('s1.jpg') */
+        background: url("https://picsum.photos/id/1/1400/1200");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+
+******************  Formatting Elements  ****************************
+<b> - Bold text
+<strong> - Important text
+<i> - Italic text
+<em> - Emphasized text
+<mark> - Marked text
+<small> - Smaller text
+<del> - Deleted text   //txt cut hoke aata hai
+<ins> - Inserted text	// txt underline hoke aata hai
+<sub> - Subscript text
+<sup> - Superscript text
+
+
+
+
+
+
+     
